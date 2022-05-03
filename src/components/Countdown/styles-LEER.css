@@ -1,0 +1,42 @@
+/* Estos son los estilos que le hubiera dado a mis contadores, 
+lamentablemete no supe agregarle estilos al storybook. Les adejutaré foto por las dudas. Saludooos */
+
+
+.countContainer{
+  color: rgb(0, 0, 0);
+  margin-top: 10em;
+  margin-bottom: 3em;
+  border:rgb(0, 0, 0) 2px solid;
+  text-align: center;
+  box-shadow: -11px 13px 13px 3px rgba(0,0,0,0.62);
+  -webkit-box-shadow: -11px 13px 13px 3px rgba(0,0,0,0.62);
+  -moz-box-shadow: -11px 13px 13px 3px rgba(0,0,0,0.62);
+}
+
+
+.boton{
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  text-align:center;
+  text-decoration: none;
+  display:inline-block;
+  color: #FFF;
+  background: #0b711a;
+  padding: 7px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 100px;
+  margin: 10px 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.boton:hover{
+  background: #62cf41;
+}
+
+.boton:active{
+  box-shadow: 0px 2px 0px 0px #27AE60;
+}
